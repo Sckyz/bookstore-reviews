@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "title": "The Secret Garden",
+      "author": "Taylor",
+      "dateOfRelease": 1909,
+      "numberOfPages": 395,
+      "image": "../public/books/The Secret Garden.jpeg"
+    },
+    {
+      "id": 1,
+      "title": "Chronicles of Narnia",
+      "author": "Taylor",
+      "dateOfRelease": 1876,
+      "numberOfPages": 205,
+      "image": "../public/books/A Bit Of Book Nostalgia.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Emma",
+      "author": "Taylor",
+      "dateOfRelease": 1954,
+      "numberOfPages": 128,
+      "image": "../public/books/In the Mood For_ Emma_.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Danielle",
+      "dateOfRelease": 1987,
+      "numberOfPages": 90,
+      "image": "../public/books/BOOK DESIGN _ Goblin Hill.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Over the garden wall",
+      "author": "Selena",
+      "dateOfRelease": 2021,
+      "numberOfPages": 508,
+      "image": "../public/books/Pattern Recognition.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Alice in wonderland",
+      "author": "Gigi",
+      "dateOfRelease": 2008,
+      "numberOfPages": 214,
+      "image": "../public/books/Top 100 Children’s Novels #31_ Alice’s Adventures in Wonderland by Lewis Carroll.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Little women",
+      "author": "Blake",
+      "dateOfRelease": 2004,
+      "numberOfPages": 1020,
+      "image": "../public/books/little_women.jpeg"
+    }
+  ]
+}
