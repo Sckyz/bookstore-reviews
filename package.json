@@ -1,0 +1,24 @@
+{
+  "name": "bookstore-reviews",
+  "version": "1.0.0",
+  "description": "Learning to create a project with a backend and db connection, using Apollo and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "@graphql-tools/graphql-file-loader": "^8.0.0",
+    "@graphql-tools/load": "^8.0.0",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.0",
+    "graphql": "^16.8.0",
+    "graphql-types": "^1.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
