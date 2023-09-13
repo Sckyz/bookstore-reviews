@@ -1,5 +1,5 @@
 type Book {
-  id: Int
+  id: ID
   image: String
   title: String
   author: String
@@ -24,6 +24,6 @@ type Query {
 
 type Mutation {
   addBook(data: bookInput): [Book]!
-  updatebook(id: ID!, data: bookInput): Boolean!
-  deletebook(id: [ID!]!): Boolean!
+  updateBook(id: ID!, data: bookInput): Boolean!
+  deleteBook(id: ID!): Boolean!
 }
