@@ -1,0 +1,30 @@
+type Review {
+  id: ID
+  book: String
+  title: String
+  author: String
+  review: String
+  dateOfRelease: Int
+}
+
+input reviewInput {
+  book: String
+  title: String
+  author: String
+  review: String
+  dateOfRelease: Int
+}
+
+type Query {
+  showReviews: [Review]
+  getReviewByTitle(title: String): [Review]
+  getReviewByAuthor(author: String): [Review]
+  getReviewByYear(dateOfRelease: Int): [Review]
+  getReviewByBook(book: String): [Review]
+}
+
+type Mutation {
+  createReview(data: reviewInput): [Review]!
+  updateReview(id: ID!, data: reviewInput): Boolean!
+  deleteReview(id: ID!): Boolean!
+}
