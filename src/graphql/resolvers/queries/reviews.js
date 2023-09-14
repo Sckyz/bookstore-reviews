@@ -1,21 +1,21 @@
-const knex = require("../../../database/index");
+const context = require("../../../context");
 
 module.exports = {
   Query: {
     showReviews: async (_, __, ___) => {
-      return await knex("reviews");
+      return await context("reviews");
     },
     getReviewByTitle: async (_, { title }, ___) => {
-      return await knex("reviews").select("*").where({ title });
+      return await context("reviews").select("*").where({ title });
     },
     getReviewByAuthor: async (_, { author }, ___) => {
-      return await knex("reviews").select("*").where({ author });
+      return await context("reviews").select("*").where({ author });
     },
     getReviewByYear: async (_, { dateOfRelease }, ___) => {
-      return await knex("reviews").select("*").where({ dateOfRelease });
+      return await context("reviews").select("*").where({ dateOfRelease });
     },
     getReviewByBook: async (_, { book }, ___) => {
-      return await knex("reviews").select("*").where({ book });
+      return await context("reviews").select("*").where({ book });
     },
   },
 };
